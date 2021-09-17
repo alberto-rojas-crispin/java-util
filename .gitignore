@@ -1,2 +1,4 @@
 #Ignora Bin
 bin/
+target/
+.settings
