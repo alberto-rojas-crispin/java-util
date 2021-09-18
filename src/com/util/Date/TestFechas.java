@@ -12,7 +12,7 @@ public class TestFechas {
 		System.out.println("calendar1: " + sdf.format(calendarMesAnterior.getTime()) + "\n");
 		
 		calendarMesAnterior.add(Calendar.MONTH, -1);
-		System.out.println("calendar2: " + sdf.format(calendarMesAnterior.getTime()) + " \nultimo día: " + calendarMesAnterior.getMaximum(Calendar.DAY_OF_MONTH));
+		System.out.println("calendar2: " + sdf.format(calendarMesAnterior.getTime()) + " \nultimo dia: " + calendarMesAnterior.getMaximum(Calendar.DAY_OF_MONTH));
 		
 		System.out.println("\n\nMENSUAL");
 		calendarMesAnterior.set(Calendar.DAY_OF_MONTH, 1);
